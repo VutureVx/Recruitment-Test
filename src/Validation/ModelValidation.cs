@@ -14,10 +14,12 @@ namespace Vuture.Validation
             ValidateEntityPropertyIsNotNull(nameof(entity.EmailAddress), entity.EmailAddress, validationResults);
 
             if (validationResults.Count > 0)
+            {
                 throw new BadRequestExceptionResponse(
-                  "Invalid model, these properties are missing -  "
+                  "Invalid model, these properties are missing - "
                   + string.Join(", ", validationResults.Select(s => s.ErrorMessage).ToArray())
                 );
+            }
         }
 
         public static void ValidateUpdateContactDto(UpdateContactDto entity)
