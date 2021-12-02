@@ -41,7 +41,9 @@ namespace Vuture.Validation
         private static void
         ValidateEntityPropertyIsNotNull<T>(string entityName, T value, ICollection<ValidationResult> validationResults)
         {
-            if (value == null) validationResults.Add(new ValidationResult(entityName));
+            if (value == null) {
+              validationResults.Add(new ValidationResult(entityName));
+            }
         }
     }
 }
