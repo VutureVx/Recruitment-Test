@@ -2,7 +2,7 @@
 
 ## .NET Core Recruitment Test (C#)
 
-The purpose of this test is to be used to assess technical capabilities of candidate during the hiring for a position at Vuture.
+The purpose of this test is to be used to assess the technical capabilities of candidates during the hiring for a position at Vuture.
 Please read all of the instructions carefully.
 
 ### Purpose of this test
@@ -14,9 +14,9 @@ Please read all of the instructions carefully.
 
 ### Background
 
-Vuture integrates with leading CRMs to automatically extract adn update data. Our system was originally built as an easy to use CMS.
-This test is focus on Contacts, a user or entity which would come from one of our clients CRM via a 3rd party integration into our Vuture product.
-In this test we have removed the need for a 3rd party integration and simply using an In-Memory database as the store of this information.
+Vuture integrates with leading CRMs to automatically extract and update data. Our system was originally built as an easy to use CMS.
+This test is focused on Contacts, a user or entity which would come from one of our clients CRM via a 3rd party integration into our Vuture product.
+In this test, we have removed the need for a 3rd party integration and simply used an In-Memory database as the store of this information.
 
 ### Instructions
 
@@ -34,7 +34,7 @@ In this test we have removed the need for a 3rd party integration and simply usi
 
 ### Important
 
-* Use the models to validations and sanitize input/outputs
+* Use the models to validate and sanitize input/outputs
 * Interact with the database via the Repository classes
 * Observability of any application is crucial, consider best how to use Logger
 
@@ -42,14 +42,14 @@ In this test we have removed the need for a 3rd party integration and simply usi
 
 * Fork or clone the repository, we would love to see your commit history
 * Use a code editor of your choice
-* Make sure to install dotnet [entity framework tools](https://docs.microsoft.com/en-us/ef/core/cli/dotnet)
+* Make sure to install Dotnet [entity framework tools](https://docs.microsoft.com/en-us/ef/core/cli/dotnet)
 * This test uses .NET 6.0, make sure you have the necessary SDK installed
-* You can use the already setup [SwaggerUI](https://localhost:3000/swagger/index.html) for manual testing
+* You can use the already set up [SwaggerUI](https://localhost:3000/swagger/index.html) for manual testing
 
 ## Think you are finished?
 
 * Have you implemented all of the methods within the controller?
-* Have you verified and consider edge cases?
+* Have you verified and considered edge cases?
 * Take another look at your code structure, does it follow good coding standards?
 
 ## Let us know you are finished
