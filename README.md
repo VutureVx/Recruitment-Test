@@ -29,7 +29,7 @@ In this test, we have removed the need for a 3rd party integration and simply us
 
 ### Bonus
 
-* Extend your code to now allow multiple contacts with the same email address, use an appropriate exception
+* Extend your code to not allow multiple contacts with the same email address, use an appropriate exception
 * Create a new controller endpoint for retrieving all of the users from a passed in company e.g. Vuture, CM Group or any other string
 
 ### Important
