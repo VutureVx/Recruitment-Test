@@ -55,5 +55,5 @@ In this test, we have removed the need for a 3rd party integration and simply us
 ## Let us know you are finished
 
 * You will need to share the repository with us, please share with us a link to your repository
-* We will review your code and provide feedback via TalentPoint
+* We will review your code and provide feedback
 * If you have any questions throughout, please feel free to get in contact with us [charly.webster@vutu.re](mailto:charly.webster@vutu.re) [simon.humphries@vutu.re](mailto:simon.humphries@vutu.re) [daniel.bottiglieri@vutu.re](mailto:daniel.bottiglieri@vutu.re)
